@@ -9,23 +9,29 @@ Here’s how I removed the `I` prefixes of all interfaces in a project: `IDog` b
 ```ts
 import { Project } from 'ts-morph';
 
+// Initialize a project with our tsconfig file
 const project = new Project({
   tsConfigFilePath: 'tsconfig.json',
 });
 
+// Get all project files
 const sourceFiles = project.getSourceFiles();
 
 sourceFiles.forEach(sourceFile => {
   console.log('👉', sourceFile.getBaseName());
 
+  // Get all interfaces in a file
   const interfaces = sourceFile.getInterfaces();
+
   interfaces.forEach(i => {
+    // IDog → Dog
     const name = i.getName();
     const nextName = name.replace(/^I([A-Z])/, '$1');
     if (name === nextName) {
       return;
     }
 
+    // Rename interface
     console.log(name, '->', nextName);
     i.rename(nextName, {
       renameInComments: true,
@@ -36,6 +42,7 @@ sourceFiles.forEach(sourceFile => {
   console.log();
 });
 
+// Save all changed files
 project.saveSync();
 ```
 
