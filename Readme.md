@@ -14,7 +14,7 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 
 ## TypeScript
 
-* [Renaming interfaces with ts-morph](typescript/renaming-interfaces-with-ts-morph.md)
+* [Renaming TypeScript interfaces with ts-morph](typescript/renaming-typescript-interfaces-with-ts-morph.md)
 
 ***
 
