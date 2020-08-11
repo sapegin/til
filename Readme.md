@@ -12,6 +12,10 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 
 ***
 
+## React
+
+* [Ensuring React Testing Library best practices with ESLint](react/ensuring-react-testing-library-best-practices-with-eslint.md)
+
 ## TypeScript
 
 * [Renaming TypeScript interfaces with ts-morph](typescript/renaming-typescript-interfaces-with-ts-morph.md)
