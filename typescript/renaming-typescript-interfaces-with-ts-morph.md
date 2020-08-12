@@ -1,3 +1,5 @@
+<!-- 2020-08-06 typescript, codemods, refactoring -->
+
 # Renaming TypeScript interfaces with ts-morph
 
 [ts-morph](https://ts-morph.com/) is a tool to write _codemods_ for TypeScript — programs that modify TypeScript code.

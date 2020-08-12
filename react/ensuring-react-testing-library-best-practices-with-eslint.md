@@ -1,4 +1,4 @@
-<!-- 2020-08-11 react, testing, testing-library, javascript -->
+<!-- 2020-08-11 react, testing, testing-library, linting, eslint, javascript -->
 
 # Ensuring React Testing Library best practices with ESLint
 
