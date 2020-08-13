@@ -27,6 +27,10 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 
 - [Renaming TypeScript interfaces with ts-morph](typescript/renaming-typescript-interfaces-with-ts-morph.md)
 
+## Misc
+
+- [Caching static assets on Netlify](misc/caching-static-assets-on-netlify.md)
+
 ---
 
 ## Other TILs
