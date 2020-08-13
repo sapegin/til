@@ -8,30 +8,29 @@
 
 ```js
 module.exports = {
-    // Where to find components
-    crawlFrom: './src',
-    // Include component like Modal.Header, not just Modal
-    includeSubComponents: true,
-    // Our component library package name
-    importedFrom: /@goeuro\/frontend-components/,
-    // Ignore files in node_modules (not necessary unless we have a monorepo)
-    exclude: dirname => dirname === 'node_modules',
-    processors: [
-        // Count only component, not props, and save the result to a file
-        ['count-components', { outputTo: 'components.json' }]
-    ],
+  // Where to find components
+  crawlFrom: './src',
+  // Include component like Modal.Header, not just Modal
+  includeSubComponents: true,
+  // Our component library package name
+  importedFrom: /@goeuro\/frontend-components/,
+  // Ignore files in node_modules (not necessary unless we have a monorepo)
+  exclude: dirname => dirname === 'node_modules',
+  processors: [
+    // Count only component, not props, and save the result to a file
+    ['count-components', { outputTo: 'components.json' }]
+  ]
 };
 ```
 
 There are several [processors](https://github.com/moroshko/react-scanner#processors) to show different levels of details:
 
-* `count-components` shows component names and the number of their usages;
-* `count-components-and-props` also shows the number of usages of each prop of each component;
-* `raw-report` gives all the data, including prop values and locations of each instance.
+- `count-components` shows component names and the number of their usages;
+- `count-components-and-props` also shows the number of usages of each prop of each component;
+- `raw-report` gives all the data, including prop values and locations of each instance.
 
 2. Run react-scanner:
 
 ```
 npx react-scanner -c react-scanner.config.js
 ```
-

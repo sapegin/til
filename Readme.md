@@ -1,6 +1,6 @@
 # Today I learned (TIL)
 
-A collection of small things around web developments, mostly not big enough for a proper blog post. Every day I learn something new, but I forget most of the things. Not anymore! 
+A collection of small things around web developments, mostly not big enough for a proper blog post. Every day I learn something new, but I forget most of the things. Not anymore!
 
 Read my larger articles [in my blog](https://blog.sapegin.me/).
 
@@ -8,30 +8,32 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 
 ## Categories
 
-* [TypeScript](#typescript)
+- [Git](#git)
+- [React](#react)
+- [TypeScript](#typescript)
 
-***
+---
 
-## Git 
+## Git
 
-* [Finding the most often changed files with git effort from git-extras](git/finding-the-most-often-changed-files-with-git-effort-from-git-extras.md)
+- [Finding the most often changed files with git effort from git-extras](git/finding-the-most-often-changed-files-with-git-effort-from-git-extras.md)
 
 ## React
 
-* [Finding the most used React components with react-scanner](react/finding-the-most-used-react-components-with-react-scanner.md)
-* [Ensuring React Testing Library best practices with ESLint](react/ensuring-react-testing-library-best-practices-with-eslint.md)
+- [Finding the most used React components with react-scanner](react/finding-the-most-used-react-components-with-react-scanner.md)
+- [Ensuring React Testing Library best practices with ESLint](react/ensuring-react-testing-library-best-practices-with-eslint.md)
 
 ## TypeScript
 
-* [Renaming TypeScript interfaces with ts-morph](typescript/renaming-typescript-interfaces-with-ts-morph.md)
+- [Renaming TypeScript interfaces with ts-morph](typescript/renaming-typescript-interfaces-with-ts-morph.md)
 
-***
+---
 
 ## Other TILs
 
-* [Josh Branchaud](https://github.com/jbranchaud/til) (yep, I stole the idea from him)
-* [Jake Worth](https://github.com/jwworth/til)
-* [thoughtbot](https://github.com/thoughtbot/til)
+- [Josh Branchaud](https://github.com/jbranchaud/til) (yep, I stole the idea from him)
+- [Jake Worth](https://github.com/jwworth/til)
+- [thoughtbot](https://github.com/thoughtbot/til)
 
 ## Authors and license
 

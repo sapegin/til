@@ -13,7 +13,7 @@ import { Project } from 'ts-morph';
 
 // Initialize a project with our tsconfig file
 const project = new Project({
-  tsConfigFilePath: 'tsconfig.json',
+  tsConfigFilePath: 'tsconfig.json'
 });
 
 // Get all project files
@@ -37,7 +37,7 @@ sourceFiles.forEach(sourceFile => {
     console.log(name, '->', nextName);
     i.rename(nextName, {
       renameInComments: true,
-      renameInStrings: true,
+      renameInStrings: true
     });
   });
 

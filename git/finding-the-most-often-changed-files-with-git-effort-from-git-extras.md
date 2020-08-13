@@ -2,7 +2,7 @@
 
 # Finding the most often changed files with git effort from git-extras
 
-[git-extras](https://github.com/tj/git-extras) is a collection of Git utilities. [git effort](https://github.com/tj/git-extras/blob/master/Commands.md#git-effort) shows the list of files or folders sorted by the number of changes in these files or folders. 
+[git-extras](https://github.com/tj/git-extras) is a collection of Git utilities. [git effort](https://github.com/tj/git-extras/blob/master/Commands.md#git-effort) shows the list of files or folders sorted by the number of changes in these files or folders.
 
 1. Install git-extras:
 
@@ -19,8 +19,8 @@ cd src/components
 git effort --above 1 *
 ```
 
-* `--above 1` option limits the output only to entries with more than one change, otherwise it’s too large;
-* `*` is a glob pattern to group changes by folder instead of showing each files separately.
+- `--above 1` option limits the output only to entries with more than one change, otherwise it’s too large;
+- `*` is a glob pattern to group changes by folder instead of showing each files separately.
 
 After running the command we’ll see two tables — the first is sorted alphabetically, and the second is sorted by the number of changes:
 
@@ -39,4 +39,3 @@ path                                                                      commit
   src/PhoneNumberInput..................................................... 4           4
   ...
 ```
-
