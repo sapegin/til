@@ -25,17 +25,17 @@ git effort --above 1 *
 After running the command we’ll see two tables — the first is sorted alphabetically, and the second is sorted by the number of changes:
 
 ```
-path                                                                      commits    active days
+path                                   commits    active days
 
-  src/ContainerHeader...................................................... 2           2
-  src/ContainerSection..................................................... 2           2
-  src/DesktopHeader........................................................ 2           2
+  src/ContainerHeader.................... 2           2
+  src/ContainerSection................... 2           2
+  src/DesktopHeader...................... 2           2
   ...
 
-path                                                                      commits    active days
+path                                   commits    active days
 
-  src/Icons2............................................................... 10          8
-  src/Time................................................................. 5           4
-  src/PhoneNumberInput..................................................... 4           4
+  src/Icons2............................. 10          8
+  src/Time............................... 5           4
+  src/PhoneNumberInput................... 4           4
   ...
 ```
