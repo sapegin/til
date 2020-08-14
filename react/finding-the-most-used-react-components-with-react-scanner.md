@@ -16,6 +16,9 @@ module.exports = {
   importedFrom: /@goeuro\/frontend-components/,
   // Ignore files in node_modules (not necessary unless we have a monorepo)
   exclude: dirname => dirname === 'node_modules',
+  // Take the filename for default imports instead of a local name for consistency
+  getComponentName: ({ imported, moduleName }) =>
+    imported || path.basename(moduleName),
   processors: [
     // Count only component, not props, and save the result to a file
     ['count-components', { outputTo: 'components.json' }]
@@ -33,4 +36,25 @@ There are several [processors](https://github.com/moroshko/react-scanner#process
 
 ```
 npx react-scanner -c react-scanner.config.js
+```
+
+The result will be in the **components.json** file, that should look like this:
+
+```json
+{
+  "ParagraphRegular": 155,
+  "Button": 125,
+  "ContainerSection": 113,
+  "Container": 105,
+  "Box": 69,
+  "Illustration": 67,
+  "Tips": 65,
+  "Block": 49,
+  "ParagraphSmall": 44,
+  "Price": 38,
+  "H6": 35,
+  "InputFormGroup": 35,
+  "ContainerHeader": 31,
+  "Flex": 30
+}
 ```
