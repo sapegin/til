@@ -16,7 +16,8 @@ module.exports = {
   importedFrom: /@goeuro\/frontend-components/,
   // Ignore files in node_modules (not necessary unless we have a monorepo)
   exclude: dirname => dirname === 'node_modules',
-  // Take the filename for default imports instead of a local name for consistency
+  // Take the filename for default imports instead of a local name
+  // for consistency
   getComponentName: ({ imported, moduleName }) =>
     imported || path.basename(moduleName),
   processors: [
