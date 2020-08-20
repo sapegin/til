@@ -18,6 +18,10 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 
 - [Finding the most often changed files with git effort from git-extras](git/finding-the-most-often-changed-files-with-git-effort-from-git-extras.md)
 
+## JavaScript
+
+- [Enabling new ESLint rules in a legacy codebase with suppress-eslint-errors)(javascript/enabling-new-eslint-rules-in-a-legacy-codebase-with-suppress-eslint-errors.md)
+
 ## React
 
 - [Finding the most used React components with react-scanner](react/finding-the-most-used-react-components-with-react-scanner.md)
