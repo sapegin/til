@@ -26,11 +26,11 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 
 - [Finding the most used React components with react-scanner](react/finding-the-most-used-react-components-with-react-scanner.md)
 - [Ensuring React Testing Library best practices with ESLint](react/ensuring-react-testing-library-best-practices-with-eslint.md)
+- [Using React useReducer hook with TypeScript](react/using-react-usereducer-hook-with-typescript.md)
 
 ## TypeScript
 
 - [Renaming TypeScript interfaces with ts-morph](typescript/renaming-typescript-interfaces-with-ts-morph.md)
-- [Using React useReducer hook with TypeScript](react/using-react-usereducer-hook-with-typescript.md)
 
 ## Misc
 
