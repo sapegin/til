@@ -30,6 +30,7 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 ## TypeScript
 
 - [Renaming TypeScript interfaces with ts-morph](typescript/renaming-typescript-interfaces-with-ts-morph.md)
+- [Using React useReducer hook with TypeScript](react/using-react-usereducer-hook-with-typescript.md)
 
 ## Misc
 
