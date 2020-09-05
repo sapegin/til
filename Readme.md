@@ -34,6 +34,7 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 
 ## Misc
 
+- [Automatically merging Dependabot security pull requests using GitHub Actions](misc/automatically-merging-dependabot-security-pull-requests-using-github-actions.md)
 - [Caching static assets on Netlify](misc/caching-static-assets-on-netlify.md)
 
 ---
