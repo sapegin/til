@@ -25,7 +25,7 @@ Here, we’re caching font forever, and images for a week. This make the experin
 
 ## Gatsby sites
 
-Gatsby’s [gatsby-plugin-netlifygatsby-plugin-netlify/) enables caching for Gatsby build files but it also overwrites user’s **\_headers** file. We need to use the plugins’s `headers` option.
+Gatsby’s [gatsby-plugin-netlify](https://www.gatsbyjs.com/plugins/gatsby-plugin-netlify/) enables caching for Gatsby build files but it also overwrites user’s **\_headers** file. We need to use the plugins’s `headers` option.
 
 Update Gatsby config file, **gatsby-config.js**:
 
