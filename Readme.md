@@ -25,6 +25,7 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 ## React
 
 - [Finding the most used React components with react-scanner](react/finding-the-most-used-react-components-with-react-scanner.md)
+- [Generating TypeScript React components from SVG icons using SVGR](react/generating-typescript-react-components-from-svg-icons-using-svgr.md)
 - [Ensuring React Testing Library best practices with ESLint](react/ensuring-react-testing-library-best-practices-with-eslint.md)
 - [Using React useReducer hook with TypeScript](react/using-react-usereducer-hook-with-typescript.md)
 
