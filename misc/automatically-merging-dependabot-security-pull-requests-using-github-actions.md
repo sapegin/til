@@ -2,7 +2,7 @@
 
 # Automatically merging Dependabot security pull requests using GitHub Actions
 
-[Dependabot](https://dependabot.com/) is a tool for automated dependency updates. It creates pull requets for each dependeny update, and GitHub uses it for security updates. The problem is you still need to merge these pull requests. Using [GitHub Actions](https://github.com/features/actions) we can merge pull requests from Dependabot automatically.
+[Dependabot](https://dependabot.com/) is a tool for automated dependency updates. It creates pull requests for each dependency update, and GitHub uses it for security updates. The problem is you still need to merge these pull requests. Using [GitHub Actions](https://github.com/features/actions), we can merge pull requests from Dependabot automatically.
 
 To do that, create a new workflow file, **.github/workflows/dependabot.yml**:
 

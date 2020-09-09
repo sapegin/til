@@ -74,7 +74,7 @@ node scripts/generate-icons.js
 
 ---
 
-The resulting TypeScript files should look like this:
+The resulting TypeScript component files should look like this:
 
 ```tsx
 import * as React from 'react';
