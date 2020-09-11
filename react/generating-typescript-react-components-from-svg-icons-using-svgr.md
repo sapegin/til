@@ -1,4 +1,4 @@
-<!-- 2020-09-09 react typescript svg svgr -->
+<!-- 2020-09-09 react, typescript, svg, svgr -->
 
 # Generating TypeScript React components from SVG icons using SVGR
 

@@ -1,4 +1,4 @@
-<!-- 2020-09-05 github github-actions dependabot mrm -->
+<!-- 2020-09-05 github, github actions, dependabot, mrm -->
 
 # Automatically merging Dependabot security pull requests using GitHub Actions
 
