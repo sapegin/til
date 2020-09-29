@@ -21,6 +21,7 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 ## JavaScript
 
 - [Enabling new ESLint rules in a legacy codebase with suppress-eslint-errors)(javascript/enabling-new-eslint-rules-in-a-legacy-codebase-with-suppress-eslint-errors.md)
+- [Finding unused and missing npm dependencies with depcheck](javascript/finding-unused-npm-dependencies-with-depcheck.md)
 
 ## React
 
