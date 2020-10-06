@@ -30,6 +30,10 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 - [Ensuring React Testing Library best practices with ESLint](react/ensuring-react-testing-library-best-practices-with-eslint.md)
 - [Using React useReducer hook with TypeScript](react/using-react-usereducer-hook-with-typescript.md)
 
+## Testing
+
+- [Detecting accessibility issues on CI with cypress-axe](testing/detecting-accessibility-issues-on-ci-with-cypress-axe.md)
+
 ## TypeScript
 
 - [Renaming TypeScript interfaces with ts-morph](typescript/renaming-typescript-interfaces-with-ts-morph.md)
