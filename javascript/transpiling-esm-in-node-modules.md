@@ -2,9 +2,9 @@
 
 # Transpiling ESM files inside node_modules
 
-This is a gigantic hack but it seems to work, until ECMAScript modules (ESM) are more widely supported. Many npm modules are already published as ECMAScript modules but not all apps could import them. I'm using it on [one of my Gatsby sites](https://tacohuaco.co/).
+This is a gigantic hack but it seems to work, until ECMAScript modules (ESM) are more widely supported. Many npm modules are already published as ECMAScript modules but not all apps could import them. Iʼm using it on [one of my Gatsby sites](https://tacohuaco.co/).
 
-The idea is to use [esbuild](https://esbuild.github.io/) to compile ESM files to CommonJS directly inside the `node_modules` folder on npm install. We'll detect packages that need to be compiled by checking that the `type` filed in the `package.json` has the `module` value.
+The idea is to use [esbuild](https://esbuild.github.io/) to compile ESM files to CommonJS directly inside the `node_modules` folder on npm install. Weʼll detect packages that need to be compiled by checking that the `type` filed in the `package.json` has the `module` value.
 
 1. Add dependencies:
 
