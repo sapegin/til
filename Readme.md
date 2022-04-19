@@ -22,6 +22,7 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 
 - [Enabling new ESLint rules in a legacy codebase with suppress-eslint-errors)(javascript/enabling-new-eslint-rules-in-a-legacy-codebase-with-suppress-eslint-errors.md)
 - [Finding unused and missing npm dependencies with depcheck](javascript/finding-unused-npm-dependencies-with-depcheck.md)
+- [Transpiling ESM files inside node_modules](javascript/transpiling-esm-in-node-modules.md)
 
 ## React
 
