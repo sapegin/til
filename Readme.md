@@ -4,13 +4,17 @@ A collection of small things around web developments, mostly not big enough for 
 
 Read my larger articles [in my blog](https://blog.sapegin.me/).
 
-[Sign up to my newsletter](https://tinyletter.com/sapegin) for updates.
+[Sign up to my newsletter](https://sapegin.substack.com/) for updates.
 
 ## Categories
 
 - [Git](#git)
+- [JavaScript](#javascript)
 - [React](#react)
+- [Testing](#testing)
 - [TypeScript](#typescript)
+- [Tools](#tools)
+- [Misc](#misc)
 
 ---
 
@@ -38,6 +42,10 @@ Read my larger articles [in my blog](https://blog.sapegin.me/).
 ## TypeScript
 
 - [Renaming TypeScript interfaces with ts-morph](typescript/renaming-typescript-interfaces-with-ts-morph.md)
+
+## Tools
+
+- [Hiding tabs completely in Visual Studio Code](tools/hiding-tabs-in-visual-studio-code.md)
 
 ## Misc
 
