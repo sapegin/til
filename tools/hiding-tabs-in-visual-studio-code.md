@@ -4,6 +4,19 @@
 
 _I always disable tabs in code editors because they distract me._
 
+**Update:** Looks like there’s finally a built-in way of disabling tabs:
+
+```json
+{
+  "workbench.editor.showTabs": "none",
+  "window.customTitleBarVisibility": "never"
+}
+```
+
+So the hack explained below is no longer needed.
+
+---
+
 By default Visual Studio Code shows tabs like this:
 
 ![Tabs in Visual Studio Code](../images/vscode-tabs.png)
